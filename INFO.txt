@@ -1,0 +1,5 @@
+gcc  -Wall -c /home/abig/project/project5/pthread/src/main.c -o /home/abig/project/project5/pthread/src/main.o -I/home/abig/project/project5/pthread/include/
+gcc  -Wall -c /home/abig/project/project5/pthread/src/pthread_id.c -o /home/abig/project/project5/pthread/src/pthread_id.o -I/home/abig/project/project5/pthread/include/
+gcc /home/abig/project/project5/pthread/src/main.o /home/abig/project/project5/pthread/src/pthread_id.o -o sdk.out -L/home/abig/project/project5/pthread/lib/ -lpthread
+mv -f sdk.out /home/abig/project/project5/pthread/bin/
+ln -sf /home/abig/project/project5/pthread/bin//sdk.out /home/abig/project/project5/pthread/bin//sdk
