@@ -13,3 +13,10 @@ def calcShannonEnt(DataSet):
         probe = float(labelCounts[key]) / numEntries
         shannonEnt -= probe * log(probe,2)
     return shannonEnt
+
+def splitDataSet(dataSet, axis, value):
+    retDateSet = []
+    for featVec in dataSet:
+        reduceFeatVec = featVec[:axis]
+        reduceFeatVec.extend(featVec[axis+1:])
+        retDateSet.append(reduceFeatVec)
