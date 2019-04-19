@@ -1,0 +1,4 @@
+hello
+
+/home/abig/project/project5/Practice/practice/MPI/test2/main.o
+
