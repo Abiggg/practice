@@ -1,4 +1,2 @@
-hello
-
-/home/abig/project/project5/Practice/practice/MPI/test2/main.o
-
+g++  -Wall -c /home/abig/project/project5/Practice/practice/MPI/test2/main.cpp -o /home/abig/project/project5/Practice/practice/MPI/test2/main.o -I/home/abig/project/project5/Practice/practice/MPI/test2/
+makefile:39: recipe for target '/home/abig/project/project5/Practice/practice/MPI/test2/main.o' failed

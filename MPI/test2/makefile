@@ -19,7 +19,7 @@ SRCS = $(wildcard $(SRC_PATH)*.cpp)
 OBJS = $(patsubst %.cpp, %.o, $(SRCS))
 
 DEPS = $($(SRC_PATH)*.o)
-#LIBS += -lpthread
+LIBS += -lpthread
 
 LIBS +=
 

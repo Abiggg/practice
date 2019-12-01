@@ -47,7 +47,6 @@ string NullCustomer::getName()
 
 class CustomerFactory{
 public:
-	static int a;
 	static vector<string> nameList; 
 	static shared_ptr<Customer> getCustomer(string name) 
 	{
@@ -61,7 +60,6 @@ public:
 	}
 };
 
-int CustomerFactory::a = 100;
 vector<string> CustomerFactory::nameList = {"zhangsan", "lisi","wangwu"};
 
 int main()
